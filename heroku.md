@@ -11,3 +11,9 @@ heroku create [APP_NAME]
 ```
 heroku git:remote -a [APP_NAME]
 ```
+
+## Tail server logs
+
+```
+heroku logs -a [APP_NAME] -t
+```
