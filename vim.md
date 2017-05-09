@@ -32,7 +32,7 @@ Switch between windows: `CTRL+ww`
 
 ## Searching for files by name
 
-[fzf](https://github.com/junegunn/fzf.vim) is a great fuzzy search tool. See the README in that repo for install details.
+[fzf](https://github.com/junegunn/fzf) is a great fuzzy search tool. See the README in that repo for install details.
 
 Search for files with `:FZF`.
 
