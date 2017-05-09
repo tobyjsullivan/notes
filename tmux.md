@@ -30,3 +30,4 @@ Enter command mode with: `C-b :`
 - Detach a session: `detach`
 - List sessions: `list-sessions`
 - Attach a session: `attach -t [session-id]`
+- Rename a session: `rename-session [new-session-id]`
