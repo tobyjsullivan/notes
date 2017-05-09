@@ -28,7 +28,7 @@ Switch between windows: `CTRL+ww`
 
 ## Treeview
 
-[NERDTree](http://www.vim.org/scripts/script.php?script_id=1658) lets you explore directory trees. Launch with `:NERD`. Close the NERDTree window with `q`.
+[NERDTree](http://www.vim.org/scripts/script.php?script_id=1658) lets you explore directory trees. Launch with `:NERDTree`. Close the NERDTree window with `q`.
 
 ## Searching for files by name
 
