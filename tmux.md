@@ -23,6 +23,14 @@
 - List all sessions (including detached): `tmux list-sessions`
 - Attach a specific session: `tmux attach -t [session-id]`
 
+## Windows
+
+- Create a new window: `C-b c`
+- Switch to a numbered window (0-9): `C-b [window-num]`
+- Switch to next window: `C-b n`
+- Switch to previous window: `C-b l`
+- Kill the current window: `C-b &`
+
 ## Commands
 
 Enter command mode with: `C-b :`
