@@ -31,6 +31,11 @@
 - Switch to previous window: `C-b l`
 - Kill the current window: `C-b &`
 
+## Searching History
+
+- Search history (search up): `C-b [ C-r`
+- Search history (search down): `C-b [ C-s`
+
 ## Commands
 
 Enter command mode with: `C-b :`
