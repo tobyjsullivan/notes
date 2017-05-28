@@ -13,6 +13,8 @@
 
 `kubectrl` is the cli tool for managing and interacting with a Kubernetes cluster.
 
+### Examples
+
 `kubectl create -h`
 `kubectl apply -f ./moneypenny`
 `kubectl scale nginx --replicas=0`
@@ -20,3 +22,4 @@
 `kubectl get deployments`
 `kubectl create secret generic moneypenny-secret --from-literal=KEY=VALUE`
 `kubectl logs event-store-173223513-9dm94`
+`kubectl describe pod event-store-173223513-9dm94`
