@@ -44,3 +44,7 @@ Enter command mode with: `C-b :`
 - List sessions: `list-sessions`
 - Attach a session: `attach -t [session-id]`
 - Rename a session: `rename-session [new-session-id]`
+
+*Note:* `C-b` conflicts with a basic emacs command so you may wish to override the tmux control key.
+
+- Override control key to Alt-b: `set-option -g prefix M-b`
