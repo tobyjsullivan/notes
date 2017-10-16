@@ -16,6 +16,12 @@ The primary benefit of Vim is speed. Maximum speed can be obtained by recognizin
 
 Display the current filepath with `:echo @%`
 
+## Panes
+
+* Switch panes: `Ctrl+w, <direction>`
+* Create horizontal split: `Ctrl+w, s`
+* Create vertical split: `Ctrl+w, v`
+
 ## Tabs
 
 * Open a new tab with `:tabe`
