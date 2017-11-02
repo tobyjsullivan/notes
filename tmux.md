@@ -31,6 +31,10 @@
 - Switch to previous window: `C-b l`
 - Kill the current window: `C-b &`
 
+## Resizing Panes
+
+- Adjust pane size: `C-b M-<arrow>`
+
 ## Searching History
 
 - Search history (search up): `C-b [ C-r`
