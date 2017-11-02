@@ -52,3 +52,11 @@ Enter command mode with: `C-b :`
 *Note:* `C-b` conflicts with a basic emacs command so you may wish to override the tmux control key.
 
 - Override control key to Alt-b: `set-option -g prefix M-b`
+
+## Plugins
+
+### Resurrect
+
+* Save session: `prefix + C-s`
+* Restore session: `prefix + C-r`
+
