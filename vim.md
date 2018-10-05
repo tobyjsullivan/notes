@@ -21,6 +21,9 @@ Display the current filepath with `:echo @%`
 * Switch panes: `Ctrl+w, <direction>`
 * Create horizontal split: `Ctrl+w, s`
 * Create vertical split: `Ctrl+w, v`
+* Resize window:
+   * `Ctrl+w, <int>, <`, `Ctrl+w, <int>, >`
+   * `Ctrl+w, <int>, +`, `Ctrl+w, <int>, -`
 
 ## Tabs
 
