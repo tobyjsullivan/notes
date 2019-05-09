@@ -63,3 +63,27 @@ failing one out of one thousand requests, however, would be unusable.
 As we progress through these layers, the need for rapid software development
 decreases and the need for reliable engineering increases. Thus, the
 appropriate tooling evolves as we move through the stack.
+
+## Are you writing one app or 20?
+
+A wannabe entrepreneur in Silicon Valley may easily write a product a year (or
+five) in ongoing attempts to validate ideas. This is the domain of the hacker.
+
+In contrast, consider a company which has established at least a minimal
+product-market fit and is now in the process of iterating on the one product.
+This product will, most likely, live in one form or another for the lifetime of
+the company. This is the domain of the engineer.
+
+## ORMs
+
+Eli Benderski wrote
+[a good blog post](https://eli.thegreenplace.net/2019/to-orm-or-not-to-orm/) on
+the benefits and drawbacks of ORMs by exploring a specific example, gorm. I
+immediately realised that ORMs fit within the domain of the hacker. They reduce
+boilerplate at the expense of fine-grained control. An ORM requires an up-front
+investment in learning the framework for the long-term benefit of reducing the
+amount of code necessary for each database interaction written. However, when
+working on a long-lived system (the domain of the Engineer), very little time is
+spent writing database interactions. The cost of handrolled SQL is minimal and
+the cost of learning an ORM framework, and the lack of control over queries,
+becomes significant.
