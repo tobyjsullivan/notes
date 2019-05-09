@@ -32,6 +32,12 @@ Display the current filepath with `:echo @%`
 * Go to next tab with `:tabn`
 * Go to previous tab with `:tabp` or `:tabN`
 
+## Line wrapping
+
+* Set line length for auto-wrapping: `:set textwidth=80`
+* Display textwidth column: `:set colorcolumn=+1`
+   * Alternatively, display a set column: `set colorcolumn=81`
+
 ## Treeview
 
 [NERDTree](http://www.vim.org/scripts/script.php?script_id=1658) lets you explore directory trees. Launch with `:NERDTree`. Close the NERDTree window with `q`.
